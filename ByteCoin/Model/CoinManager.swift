@@ -15,7 +15,7 @@ struct CoinManager {
     let apiKey = "f1498b3a-22e8-4fea-ae3c-2051b4c6aa79"
     
     let currencyArray = ["AUD", "BRL","CAD","CNY","EUR","GBP","HKD","IDR","ILS","INR","JPY","MXN","NOK","NZD","PLN","RON","RUB","SEK","SGD","USD","ZAR"]
-    
+
     func getCoinPrice(for currency: String) {
         if let url =
             URL(string: "\(baseURL)/\(currency)?apikey=\(apiKey)") {
@@ -37,4 +37,5 @@ struct CoinManager {
             print(dataString ?? "No data")
         }
     }
+
 }
