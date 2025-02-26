@@ -1,5 +1,94 @@
-/ByteCoin.xcodeproj/project.xcworkspace/xcuserdata
-/ByteCoin.xcodeproj/project.xcworkspace/xcuserdata/maghiumiusliu.xcuserdatad
-ByteCoin.xcodeproj/project.xcworkspace/xcuserdata/maghiumiusliu.xcuserdatad/UserInterfaceState.xcuserstate
-/ByteCoin.xcodeproj/project.xcworkspace/xcuserdata/maghiumiusliu.xcuserdatad
-ByteCoin.xcodeproj/project.xcworkspace/xcuserdata/maghiumiusliu.xcuserdatad/UserInterfaceState.xcuserstate
+# Xcode
+#
+# gitignore for Xcode projects
+#
+## User settings
+xcuserdata/
+*.xcuserstate
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+#
+Packages/
+Package.pins
+Package.resolved
+*.xcodeproj
+.swiftpm
+.build/
+
+# CocoaPods
+#
+Pods/
+Podfile.lock
+*.xcworkspace
+!default.xcworkspace
+
+# Carthage
+#
+Carthage/Build/
+
+# Accio dependency management
+Dependencies/
+.accio/
+
+# fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+#
+iOSInjectionProject/
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Xcode Build Products
+build/
+DerivedData/
+
+# Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.xcuserstate
+.idea/
